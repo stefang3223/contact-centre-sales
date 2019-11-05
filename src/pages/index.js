@@ -130,7 +130,7 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Hungry for more?</h2>
+          <h2>Want more?</h2>
           <p>
             Interested in our platform & our journey? Subscribe to our news letter !
           </p>
@@ -149,6 +149,7 @@ const IndexPage = () => (
     </section>
 
     <section id="cta" className="wrapper style4">
+      <h1 className="centre-text">Got a question?</h1>
       <div className="inner">
         <form action="https://formspree.io/mwkegrdj" method="POST">
           <div className="row gtr-uniform">

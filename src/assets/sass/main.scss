@@ -610,6 +610,7 @@
 		}
 	}
 
+	
 /* Image */
 
 	.image {
@@ -1930,4 +1931,8 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
+	}
+
+	.centre-text {
+		text-align: center;
 	}

@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul> */}
       <ul className="copyright">
-        <li>&copy; Hook Me Up</li>
+        <li>&copy; Hook Me Up 2019</li>
       </ul>
     </footer>
   );
