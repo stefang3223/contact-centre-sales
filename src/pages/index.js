@@ -62,21 +62,6 @@ const IndexPage = () => (
             src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
           </iframe>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="fab fa-facebook-messenger major style1">
-              {/* <span className="label">Facebook Messenger</span> */}
-            </span>
-          </li>
-          <li>
-            <span className="fab fa-whatsapp major style1">
-            </span>
-          </li>
-          <li>
-            <span className="fab fa-facebook-messenger major style1">
-            </span>
-          </li>
-        </ul>
       </div>
     </section>
 
