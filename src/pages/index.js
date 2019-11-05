@@ -122,7 +122,7 @@ const IndexPage = () => (
             To rule them all!
           </h2>
           <p>
-            Integrate with the most popular table booking platforms. ResDiary Bookatable Collinsbookings Open table
+            Integrate with the most popular table booking platforms. ResDiary, Bookatable, Collinsbookings and Open table
           </p>
         </div>
       </section>
@@ -173,7 +173,7 @@ const IndexPage = () => (
               <input type="text" name="contact-name" id="contact-name" defaultValue="" placeholder="John Smith" />
             </div>
             <div className="col-6 col-12-xsmall">
-              <input type="text" name="contact-phone" id="contact-phone" defaultValue="" placeholder="++ 44 7495 112233" />
+              <input type="text" name="contact-phone" id="contact-phone" defaultValue="" placeholder="44 7495 112233" />
             </div>
             <div className="col-12 col-12-xsmall">
               <input type="email" name="contact-email" id="contact-email" defaultValue="" placeholder="john.smith@domain.com" />
