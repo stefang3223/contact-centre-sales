@@ -56,8 +56,6 @@ const IndexPage = () => (
           </p>
           <h3>Want to see the platform in action?</h3>
           <br />
-          <p>Check out the bellow video</p>
-          <br />
           <iframe width="420" height="315"
             src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
           </iframe>
@@ -123,7 +121,7 @@ const IndexPage = () => (
             Use our state of the art dashboard
           </h2>
           <p>
-            Keep track of of your bookings, where is your engagement coming from and your drop off rate.
+            Keep track of of your bookings, where your engagement is coming from and your drop off rate.
           </p>
         </div>
       </section>
