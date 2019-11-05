@@ -7,6 +7,15 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+
+
+import automatePic from '../assets/images/automate.svg';
+import integratePic from '../assets/images/connect.svg';
+import socialPic from '../assets/images/social.svg';
+import dashboardPic from '../assets/images/dashboard.svg';
+
+
+
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -18,7 +27,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                How it works
               </a>
             </Scroll>
           </li>
@@ -35,32 +44,36 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
+            Us humans like to chat
             <br />
-            eget augue amet aliquet nisl cep donec
+            Engage with your customers, in a way that's right for them
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            Did you know that us humans spend on average 4 hours and 23 mins on our phones ?
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            And what do we do? Some of us play games, but most of us interact with each other on one of the many platforms out there!
+            That's right, most of us spend on average 45% of our screen time in social media! You know, chatting to your friends and sharing pictures of cats !
           </p>
+          <h3>Want to see the platform in action?</h3>
+          <br />
+          <p>Check out the bellow video</p>
+          <br />
+          <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+          </iframe>
         </header>
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
+            <span className="fab fa-facebook-messenger major style1">
+              {/* <span className="label">Facebook Messenger</span> */}
             </span>
           </li>
           <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
+            <span className="fab fa-whatsapp major style1">
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
+            <span className="fab fa-facebook-messenger major style1">
             </span>
           </li>
         </ul>
@@ -70,49 +83,62 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={automatePic} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
+            Automate
             <br />
-            sed ullamcorper
+            your business
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Allow your clients to get in touch, whenever, however. No humans required.
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={socialPic} alt="" />
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            Integrate
             <br />
-            elementum magna
+            With the most popular channels
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Facebook, WhatsApp, IVR and SMS
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={integratePic} alt="" />
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
+            One app
             <br />
-            sed condimentum
+            To rule them all!
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Integrate with the most popular table booking platforms. ResDiary Bookatable Collinsbookings Open table
+          </p>
+        </div>
+      </section>
+
+      <section className="spotlight">
+        <div className="image">
+          <img src={dashboardPic} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            Data Hungry?
+            <br />
+            Use our state of the art dashboard
+          </h2>
+          <p>
+            Keep track of of your bookings, where is your engagement coming from and your drop off rate.
           </p>
         </div>
       </section>
@@ -121,86 +147,51 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Hungry for more?</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Interested in our platform & our journey? Subscribe to our news letter !
           </p>
         </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
+        <form action="https://formspree.io/mwkegrdj" method="POST">
+          <div className="row gtr-uniform">
+            <div className="col-8 col-12-xsmall">
+              <input type="email" name="subscribe-email" id="subscribe-email" defaultValue="" placeholder="john.smith@domain.com" />
+            </div>
+            <div className="col-4 col-12-xsmall">
+              <button type="submit" className="primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
+        <form action="https://formspree.io/mwkegrdj" method="POST">
+          <div className="row gtr-uniform">
+            <div className="col-6 col-12-xsmall">
+              <input type="text" name="contact-name" id="contact-name" defaultValue="" placeholder="John Smith" />
+            </div>
+            <div className="col-6 col-12-xsmall">
+              <input type="text" name="contact-phone" id="contact-phone" defaultValue="" placeholder="++ 44 7495 112233" />
+            </div>
+            <div className="col-12 col-12-xsmall">
+              <input type="email" name="contact-email" id="contact-email" defaultValue="" placeholder="john.smith@domain.com" />
+            </div>
+
+            <div className="col-12">
+              <textarea name="contact-message" id="contact-message" placeholder="I'd like to learn more about your platform" rows="6" resize='false'></textarea>
+            </div>
+            <div className="col-12">
+              <ul className="actions">
+                <li><input type="submit" value="Send Message" className="primary" /></li>
+              </ul>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
-  </Layout>
+  </Layout >
 );
 
 export default IndexPage;

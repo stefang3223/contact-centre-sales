@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-export default function Nav({ onMenuToggle = () => {} }) {
+export default function Nav({ onMenuToggle = () => { } }) {
   return (
     <nav id="nav">
-      <ul>
+      {/* <ul>
         <li className="special">
           <a
             href="#menu"
@@ -40,7 +40,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </a>
           </div>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }
