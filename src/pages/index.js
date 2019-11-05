@@ -49,7 +49,7 @@ const IndexPage = () => (
             Engage with your customers, in a way that's right for them
           </h2>
           <p>
-            Did you know that us humans spend on average 4 hours and 23 mins on our phones ?
+            Did you know that us humans spend on average 3 hours and 43 minutes on our phones?
             <br />
             And what do we do? Some of us play games, but most of us interact with each other on one of the many platforms out there!
             That's right, most of us spend on average 45% of our screen time in social media! You know, chatting to your friends and sharing pictures of cats !
